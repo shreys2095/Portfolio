@@ -3,538 +3,223 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SS Portfolio</title>
+    <title>Shreya Sunil — Portfolio</title>
+    <meta name="description" content="Shreya Sunil — Software Engineer & Product Designer. Frontend, analytics, and UI/UX work." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
-    <main class="page-frame">
-      <section class="hero">
-        <div class="dot-field" aria-hidden="true">
-          <span class="dot dot--burst" style="--size: 26px; --x: 61%; --y: 10%; --dx: -12px; --dy: -14px; --delay: 0ms;"></span>
-          <span class="dot dot--burst" style="--size: 26px; --x: 58.5%; --y: 16%; --dx: -14px; --dy: 10px; --delay: 40ms;"></span>
-          <span class="dot dot--burst" style="--size: 20px; --x: 65.5%; --y: 8%; --dx: -10px; --dy: -9px; --delay: 70ms;"></span>
-          <span class="dot dot--burst" style="--size: 18px; --x: 69%; --y: 7.5%; --dx: -8px; --dy: -12px; --delay: 90ms;"></span>
-          <span class="dot dot--burst" style="--size: 18px; --x: 72.2%; --y: 9.8%; --dx: 8px; --dy: -14px; --delay: 120ms;"></span>
-          <span class="dot dot--burst" style="--size: 20px; --x: 75.2%; --y: 12.8%; --dx: 14px; --dy: -6px; --delay: 150ms;"></span>
-          <span class="dot dot--burst" style="--size: 22px; --x: 78.4%; --y: 8.2%; --dx: 18px; --dy: -10px; --delay: 180ms;"></span>
-          <span class="dot dot--burst dot-anchor" style="--size: 22px; --x: 81.6%; --y: 12.6%; --dx: 0px; --dy: 0px; --delay: 220ms;"></span>
-          <span class="dot dot--burst" style="--size: 18px; --x: 84%; --y: 17%; --dx: 12px; --dy: 8px; --delay: 250ms;"></span>
-          <span class="dot dot--burst" style="--size: 20px; --x: 86.8%; --y: 9.8%; --dx: 20px; --dy: -3px; --delay: 280ms;"></span>
-          <span class="dot dot--burst" style="--size: 16px; --x: 89.4%; --y: 14%; --dx: 22px; --dy: 8px; --delay: 310ms;"></span>
-          <span class="dot dot--burst" style="--size: 18px; --x: 91.8%; --y: 8.5%; --dx: 26px; --dy: -11px; --delay: 340ms;"></span>
-          <span class="dot dot--burst" style="--size: 20px; --x: 94.5%; --y: 14.5%; --dx: 18px; --dy: 10px; --delay: 360ms;"></span>
-          <span class="dot dot--burst" style="--size: 18px; --x: 88.4%; --y: 20.4%; --dx: 16px; --dy: 18px; --delay: 390ms;"></span>
-          <span class="dot dot--burst" style="--size: 20px; --x: 83.2%; --y: 22%; --dx: 6px; --dy: 18px; --delay: 430ms;"></span>
-          <span class="dot dot--burst" style="--size: 18px; --x: 78.6%; --y: 20.8%; --dx: -10px; --dy: 16px; --delay: 460ms;"></span>
-          <span class="dot dot--burst" style="--size: 18px; --x: 74.8%; --y: 18.8%; --dx: -12px; --dy: 11px; --delay: 500ms;"></span>
-          <span class="dot dot--burst" style="--size: 16px; --x: 71.6%; --y: 15.8%; --dx: -16px; --dy: 5px; --delay: 530ms;"></span>
-          <span class="dot dot--burst" style="--size: 16px; --x: 68.4%; --y: 13.6%; --dx: -17px; --dy: -2px; --delay: 560ms;"></span>
-          <span class="dot dot--burst" style="--size: 18px; --x: 87.2%; --y: 5.6%; --dx: 10px; --dy: -18px; --delay: 590ms;"></span>
-          <span class="dot dot--burst" style="--size: 16px; --x: 82.8%; --y: 5.2%; --dx: 2px; --dy: -20px; --delay: 620ms;"></span>
-          <span class="dot dot--burst" style="--size: 16px; --x: 77.4%; --y: 4.8%; --dx: -8px; --dy: -18px; --delay: 650ms;"></span>
-          <span class="dot dot--burst" style="--size: 14px; --x: 73.8%; --y: 5.8%; --dx: -12px; --dy: -16px; --delay: 680ms;"></span>
-          <span class="dot dot--burst" style="--size: 14px; --x: 92.6%; --y: 18%; --dx: 22px; --dy: 16px; --delay: 710ms;"></span>
-          <span class="dot dot--burst" style="--size: 16px; --x: 95.8%; --y: 20.8%; --dx: 20px; --dy: 14px; --delay: 740ms;"></span>
-          <span class="dot dot--burst" style="--size: 16px; --x: 90.2%; --y: 24.2%; --dx: 14px; --dy: 18px; --delay: 770ms;"></span>
-          <span class="dot dot--burst" style="--size: 16px; --x: 85.8%; --y: 25.4%; --dx: 6px; --dy: 19px; --delay: 800ms;"></span>
-          <span class="dot dot--burst" style="--size: 14px; --x: 80.8%; --y: 24.6%; --dx: -2px; --dy: 17px; --delay: 840ms;"></span>
-          <span class="dot" style="--size: 16px; --x: 67.2%; --y: 11.2%;"></span>
-          <span class="dot" style="--size: 14px; --x: 70.6%; --y: 12.6%;"></span>
-          <span class="dot" style="--size: 18px; --x: 74.2%; --y: 7.4%;"></span>
-          <span class="dot" style="--size: 14px; --x: 76.6%; --y: 15.8%;"></span>
-          <span class="dot" style="--size: 16px; --x: 79.8%; --y: 17.8%;"></span>
-          <span class="dot" style="--size: 14px; --x: 82.2%; --y: 18.8%;"></span>
-          <span class="dot" style="--size: 16px; --x: 85%; --y: 13.2%;"></span>
-          <span class="dot" style="--size: 14px; --x: 87.8%; --y: 11%;"></span>
-          <span class="dot" style="--size: 14px; --x: 90.8%; --y: 12.2%;"></span>
-          <span class="dot" style="--size: 16px; --x: 93.6%; --y: 17.2%;"></span>
-          <span class="dot" style="--size: 14px; --x: 86.6%; --y: 22.8%;"></span>
-          <span class="dot" style="--size: 14px; --x: 75.8%; --y: 22.4%;"></span>
-          <span class="dot" style="--size: 22px; --x: 43%; --y: 31%;"></span>
-          <span class="dot" style="--size: 24px; --x: 47%; --y: 33.5%;"></span>
-          <span class="dot" style="--size: 20px; --x: 46%; --y: 39%;"></span>
-          <span class="dot" style="--size: 24px; --x: 45%; --y: 43%;"></span>
-          <span class="dot" style="--size: 24px; --x: 47%; --y: 48%;"></span>
-          <span class="dot" style="--size: 24px; --x: 50%; --y: 45.5%;"></span>
-          <span class="dot" style="--size: 24px; --x: 53%; --y: 36%;"></span>
-          <span class="dot" style="--size: 24px; --x: 55%; --y: 46%;"></span>
-          <span class="dot" style="--size: 22px; --x: 57.5%; --y: 39%;"></span>
-          <span class="dot" style="--size: 22px; --x: 59.5%; --y: 46%;"></span>
-          <span class="dot" style="--size: 22px; --x: 61%; --y: 52%;"></span>
-          <span class="dot" style="--size: 20px; --x: 64%; --y: 45%;"></span>
-          <span class="dot" style="--size: 22px; --x: 66%; --y: 40%;"></span>
-          <span class="dot" style="--size: 22px; --x: 67.5%; --y: 50%;"></span>
-          <span class="dot" style="--size: 22px; --x: 70%; --y: 46%;"></span>
-          <span class="dot" style="--size: 22px; --x: 72%; --y: 34%;"></span>
-          <span class="dot" style="--size: 22px; --x: 73.5%; --y: 39%;"></span>
-          <span class="dot" style="--size: 24px; --x: 75.5%; --y: 43%;"></span>
-          <span class="dot" style="--size: 22px; --x: 77%; --y: 36%;"></span>
-          <span class="dot" style="--size: 20px; --x: 78.5%; --y: 47%;"></span>
-          <span class="dot" style="--size: 22px; --x: 81.5%; --y: 49%;"></span>
-          <span class="dot" style="--size: 24px; --x: 85.5%; --y: 39%;"></span>
-        </div>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6" /></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="M3 7l9 6 9-6" /></symbol>
+      <symbol id="i-link" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" /></symbol>
+      <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" /><path d="M14 3v5h5M12 11v6M9 14l3 3 3-3" /></symbol>
+      <symbol id="i-send" viewBox="0 0 24 24"><path d="M21 3L3 10l7 3 3 7z" /><path d="M10 13l11-10" /></symbol>
+      <symbol id="i-plane" viewBox="0 0 24 24"><path d="M10 14L3 11l1-2 7 1 5-6h2l-2 7 5 1v2l-5 1 2 7h-2l-5-6-7 1-1-2z" /></symbol>
+      <symbol id="i-rotate" viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.3-5.7M4 4v4h4" /></symbol>
+      <symbol id="i-doc" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2" /><path d="M9 8h6M9 12h6M9 16h4" /></symbol>
+      <symbol id="i-code" viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5" /></symbol>
+    </svg>
 
-        <div class="hero-shell">
-          <div class="hero-heading-frame">
-            <div class="hero-heading">
-              <p class="hero-kicker">Hi, I'm</p>
-              <h1><span class="hero-name">Shreya Sunil</span></h1>
+    <header class="site-nav" id="head" data-nav>
+      <a class="site-nav__mark" href="#top">Shreya Sunil</a>
+      <nav class="site-nav__links" aria-label="Section navigation">
+        <a href="#about">About</a>
+        <a href="#journey">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ========== 1. INTRO / HERO ========== -->
+      <section class="hero" id="top">
+        <svg class="hero-fly" id="heroFly" aria-hidden="true">
+          <mask id="hmk" maskUnits="userSpaceOnUse" x="-100" y="-100" width="5000" height="5000">
+            <path id="hmp" fill="none" stroke="#fff" stroke-width="12" />
+          </mask>
+          <path id="htrail" fill="none" stroke="var(--line3)" stroke-width="2.5" stroke-dasharray="2 9" stroke-linecap="round" mask="url(#hmk)" />
+          <g id="hplane" opacity="0">
+            <path
+              transform="scale(1.6)"
+              d="M15 0 C15 -1.5 13 -2.2 11 -2.2 L4 -2.2 L-3 -12 L-6.5 -12 L-2.5 -2.2 L-9 -2.2 L-12 -6.5 L-14.5 -6.5 L-12.5 0 L-14.5 6.5 L-12 6.5 L-9 2.2 L-2.5 2.2 L-6.5 12 L-3 12 L4 2.2 L11 2.2 C13 2.2 15 1.5 15 0 Z"
+              fill="var(--plane)"
+            />
+          </g>
+        </svg>
+        <div class="hey" id="hey" aria-hidden="true">Hey there,</div>
+        <h1 class="name" id="name" aria-label="I'm Shreya Sunil."></h1>
+        <a class="cue" id="cue" href="#about"><svg class="icon"><use href="#i-down" /></svg>Scroll to check in</a>
+      </section>
+
+      <!-- ========== 2. ABOUT / PASSPORT ========== -->
+      <section id="about" class="page-section" aria-label="About me">
+        <div class="wrapx">
+          <p class="kicker">About</p>
+          <h2>About me</h2>
+          <p class="lede">The traveler behind the trip.</p>
+          <div class="spread" id="spread">
+            <div class="pg l" id="leftStatic"></div>
+            <div class="pg r">
+              <p class="lbl">Name</p>
+              <p class="val" style="font-family: var(--font-mono); font-weight: 600; font-size: 24px; margin-bottom: 18px">Shreya Sunil</p>
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px 16px">
+                <div><p class="lbl">Profession</p><p class="val">Software Engineer</p></div>
+                <div><p class="lbl">Education</p><p class="val">M.S. Software Engineering, ASU</p></div>
+                <div><p class="lbl">Experience</p><p class="val">2+ years across frontend, analytics &amp; UI/UX</p></div>
+                <div><p class="lbl">Now</p><p class="val">Building at Allyzent</p></div>
+                <div><p class="lbl">Status</p><p class="val" style="color: var(--ok)">Open to opportunities</p></div>
+              </div>
+              <div class="mrz">
+                P&lt;SHREYA&lt;SUNIL&lt;&lt;SOFTWARE&lt;ENGINEER&lt;&lt;&lt;&lt;&lt;<br />
+                OPEN&lt;TO&lt;OPPORTUNITIES&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+              </div>
             </div>
-          </div>
-
-          <div class="hero-scene">
-            <div class="hero-scene__stage">
-              <div class="hero-bridge" data-bridge aria-hidden="true">
-                <img
-                  class="hero-bridge__graphic"
-                  src="Assests/BridgeBlock.svg"
-                  alt=""
-                />
-              </div>
-
-              <div class="hero-folder" data-folder aria-hidden="true">
-                <svg
-                  class="hero-folder__graphic"
-                  viewBox="0 0 348 328"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g class="hero-folder__card hero-folder__card--one">
-                    <rect
-                      x="71.7158"
-                      y="-0.305554"
-                      width="107.13"
-                      height="119.922"
-                      rx="17.1888"
-                      transform="rotate(2.40341 71.7158 -0.305554)"
-                      fill="#FFF0F5"
-                    />
-                    <rect
-                      x="71.7158"
-                      y="-0.305554"
-                      width="107.13"
-                      height="119.922"
-                      rx="17.1888"
-                      transform="rotate(2.40341 71.7158 -0.305554)"
-                      stroke="#E1E1E1"
-                      stroke-width="0.799477"
-                    />
-                  </g>
-                  <g class="hero-folder__card hero-folder__card--two">
-                    <rect
-                      x="162.796"
-                      y="11.6286"
-                      width="107.13"
-                      height="119.922"
-                      rx="17.1888"
-                      transform="rotate(12.0136 162.796 11.6286)"
-                      fill="#FF8787"
-                    />
-                    <rect
-                      x="162.796"
-                      y="11.6286"
-                      width="107.13"
-                      height="119.922"
-                      rx="17.1888"
-                      transform="rotate(12.0136 162.796 11.6286)"
-                      stroke="#E1E1E1"
-                      stroke-width="0.799477"
-                    />
-                  </g>
-                  <g class="hero-folder__card hero-folder__card--three">
-                    <rect
-                      x="245.514"
-                      y="36.3857"
-                      width="107.13"
-                      height="119.922"
-                      rx="17.1888"
-                      transform="rotate(17.3456 245.514 36.3857)"
-                      fill="#FFF0F5"
-                    />
-                    <rect
-                      x="245.514"
-                      y="36.3857"
-                      width="107.13"
-                      height="119.922"
-                      rx="17.1888"
-                      transform="rotate(17.3456 245.514 36.3857)"
-                      stroke="#E1E1E1"
-                      stroke-width="0.799477"
-                    />
-                  </g>
-                  <g opacity="0.5" filter="url(#hero-folder-shadow)">
-                    <ellipse
-                      cx="175.085"
-                      cy="292.719"
-                      rx="98.3357"
-                      ry="8.79425"
-                      fill="#2B0A1E"
-                    />
-                    <path
-                      d="M175.085 284.324C202.232 284.324 226.803 285.308 244.583 286.898C253.476 287.694 260.658 288.64 265.611 289.688C268.09 290.212 269.991 290.757 271.263 291.313C271.901 291.592 272.358 291.864 272.649 292.12C272.942 292.378 273.021 292.578 273.021 292.719C273.021 292.86 272.943 293.06 272.649 293.318C272.358 293.575 271.901 293.846 271.263 294.125C269.991 294.681 268.09 295.227 265.611 295.751C260.658 296.798 253.476 297.744 244.583 298.539C226.803 300.129 202.232 301.113 175.085 301.113C147.939 301.113 123.367 300.129 105.587 298.539C96.6952 297.744 89.5129 296.798 84.5601 295.751C82.0806 295.227 80.1801 294.681 78.9077 294.125C78.2699 293.846 77.8123 293.575 77.521 293.318C77.2275 293.06 77.1489 292.86 77.1489 292.719C77.149 292.578 77.2279 292.378 77.521 292.12C77.8123 291.864 78.2699 291.592 78.9077 291.313C80.1801 290.757 82.0805 290.212 84.5601 289.688C89.5129 288.64 96.6952 287.694 105.587 286.898C123.367 285.308 147.939 284.324 175.085 284.324Z"
-                      stroke="#FEFBF2"
-                      stroke-width="0.799477"
-                    />
-                  </g>
-                  <path
-                    class="hero-folder__body"
-                    d="M155.141 87.5735C161.106 87.5735 166.798 90.0795 170.826 94.4797L184.449 109.361C188.296 113.562 193.73 115.954 199.427 115.954H288.913C301.314 115.954 311.085 126.523 310.114 138.886L299.787 270.4C298.918 281.465 289.686 290.001 278.587 290.001H73.4053C62.212 290.001 52.9353 281.324 52.1875 270.156L41.0947 104.489C40.2107 95.4248 47.3337 87.5737 56.4404 87.5735H155.141Z"
-                    fill="#FFF7B2"
-                    stroke="#FEFBF2"
-                    stroke-width="0.959372"
-                  />
-                  <defs>
-                    <filter
-                      id="hero-folder-shadow"
-                      x="51.1663"
-                      y="258.342"
-                      width="247.838"
-                      height="68.7549"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="BackgroundImageFix"
-                        result="shape"
-                      />
-                      <feGaussianBlur
-                        stdDeviation="12.7916"
-                        result="effect1_foregroundBlur_147_49"
-                      />
-                    </filter>
-                  </defs>
+            <div class="cover" id="cover">
+              <div class="face front">
+                <svg width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="var(--cream)" stroke-width="1.3">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M3 12h18M12 3c3 3.2 3 14.8 0 18M12 3c-3 3.2-3 14.8 0 18" />
                 </svg>
+                <p style="margin: 0; font-size: 21px; font-weight: 700; letter-spacing: 0.14em">PASSPORT</p>
+                <p style="margin: 0; font-size: 14px; opacity: 0.75">Shreya Sunil</p>
               </div>
-
-              <div class="hero-points">
-                <article class="hero-point hero-point--one">
-                  <span class="hero-point__capsule" data-capsule>
-                    <img src="Assests/Bullet.svg" alt="" />
-                  </span>
-                  <p>Building digital experiences that are clean and intuitive.</p>
-                </article>
-
-                <article class="hero-point hero-point--two">
-                  <span class="hero-point__capsule" data-capsule>
-                    <img src="Assests/Bullet1.svg" alt="" />
-                  </span>
-                  <p>Focused on clarity, structure, and usability.</p>
-                </article>
-
-                <article class="hero-point hero-point--three">
-                  <span class="hero-point__capsule" data-capsule>
-                    <img src="Assests/Bullet.svg" alt="" />
-                  </span>
-                  <p>
-                    With a background in software and analytics, I turn ideas
-                    into solutions that actually work.
-                  </p>
-                </article>
-              </div>
+              <div class="face backf" id="bioPage"></div>
             </div>
           </div>
         </div>
       </section>
 
-      <span class="bridge-ball" aria-hidden="true"></span>
-      <span class="cursor-ball" aria-hidden="true"></span>
-
-      <section class="page-tail">
-        <div class="page-tail__track">
-          <div class="page-tail__content">
-            <nav class="surface-card section-nav" aria-label="Portfolio sections">
-              <a
-                class="section-nav__link"
-                href="#about"
-                data-about-anchor
-              >
-                <span class="section-nav__about-label">About Me</span>
-              </a>
-              <a class="section-nav__link" href="#skills">Skills</a>
-              <a class="section-nav__link" href="#projects">Projects</a>
-              <a class="section-nav__link" href="#experience">Experience</a>
-              <a class="section-nav__link" href="#contact">Contact</a>
-            </nav>
-
-            <section class="portfolio-section about-section" id="about">
-              <div class="section-heading" data-reveal>
-                <p class="section-eyebrow">About</p>
-                <h2 class="section-title">
-                  Software, analytics, and interface systems built to reduce
-                  friction.
-                </h2>
+      <!-- ========== 3. EXPERIENCE: JOURNEY (pinned, scroll-driven) ========== -->
+      <section id="journey" aria-label="Experience">
+        <div class="journey-pin" id="pin">
+          <div class="stage">
+            <div class="stage-head">
+              <div>
+                <p class="kicker">Experience</p>
+                <h2>The route so far</h2>
+                <p class="lede j">Every stop, every flight, and what I packed along the way.</p>
               </div>
+              <a class="skip" href="#projects"><svg class="icon"><use href="#i-down" /></svg>Skip to projects</a>
+            </div>
 
-              <div class="about-layout" data-reveal>
-                <article class="surface-card about-card">
-                  <p>
-                    I'm a Software Engineering graduate student at Arizona State
-                    University with hands-on experience in frontend
-                    development, analytics implementation, and UI/UX design.
-                  </p>
-                  <p>
-                    My work at Tata Consultancy Services involved building
-                    structured tracking systems, debugging user interaction
-                    flows, and delivering reliable reporting solutions.
-                  </p>
-                  <p>
-                    I focus on reducing friction in systems, interfaces, and
-                    user journeys by combining logic, design, and data.
-                  </p>
-                </article>
+            <div class="journey-panels">
+            <div class="map map-panel fitw" id="wrap">
+              <svg viewBox="0 0 680 420" role="img" aria-label="Career journey map, India to Arizona">
+                <defs id="defs"></defs>
+                <rect x="12" y="36" width="268" height="370" rx="18" fill="var(--soft)" />
+                <rect x="400" y="36" width="268" height="370" rx="18" fill="var(--soft)" />
+                <text class="st" x="146" y="60" text-anchor="middle" style="font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em">INDIA</text>
+                <text class="st" x="534" y="60" text-anchor="middle" style="font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em">ARIZONA, USA</text>
+                <g stroke="var(--line2)" stroke-width="1.5" fill="none" stroke-linecap="round">
+                  <path d="M312 300 q8 -6 16 0 t16 0" />
+                  <path d="M330 330 q8 -6 16 0 t16 0" />
+                  <path d="M310 360 q8 -6 16 0 t16 0" />
+                </g>
+                <path id="route" fill="none" stroke="var(--line3)" stroke-width="2.5" stroke-dasharray="2 8" stroke-linecap="round" />
+                <mask id="mk" maskUnits="userSpaceOnUse" x="-40" y="-120" width="760" height="600">
+                  <path id="mpath" fill="none" stroke="#fff" stroke-width="14" />
+                </mask>
+                <path id="trail" fill="none" stroke="var(--primary)" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" mask="url(#mk)" />
+                <g id="stops"></g>
+                <g id="plane" aria-hidden="true">
+                  <ellipse id="shadow" cx="0" cy="0" rx="12" ry="4" fill="var(--line3)" opacity="0.35" />
+                  <g id="planeBody">
+                    <path
+                      transform="scale(1.45)"
+                      d="M15 0 C15 -1.5 13 -2.2 11 -2.2 L4 -2.2 L-3 -12 L-6.5 -12 L-2.5 -2.2 L-9 -2.2 L-12 -6.5 L-14.5 -6.5 L-12.5 0 L-14.5 6.5 L-12 6.5 L-9 2.2 L-2.5 2.2 L-6.5 12 L-3 12 L4 2.2 L11 2.2 C13 2.2 15 1.5 15 0 Z"
+                      fill="var(--plane)"
+                    />
+                  </g>
+                </g>
+              </svg>
+              <div class="pop" id="pop" role="status" aria-live="polite">
+                <div class="arr" id="arr"></div>
+                <div class="steps" id="steps"></div>
+                <div class="prow"><div class="pnum" id="pnum"></div><div style="min-width: 0"><p class="prole" id="prole"></p><p class="porg" id="porg"></p></div></div>
+                <p class="pdesc" id="pdesc"></p>
+                <div class="pmeta"><div style="display: flex; gap: 4px; flex-wrap: wrap" id="pchips"></div><span class="when" id="pwhen"></span></div>
+              </div>
+            </div>
 
-                <div class="metric-grid" aria-label="Key metrics">
-                  <article class="surface-card metric-card">
-                    <p class="metric-card__value">2+</p>
-                    <h3>Years of Experience</h3>
-                    <p>
-                      In frontend development, analytics implementation, and
-                      UI/UX design
-                    </p>
-                  </article>
+            <div class="case case-panel">
+              <div class="case-h"></div>
+              <span class="case-t">Carry-on</span>
+              <div class="lining" id="lining"></div>
+            </div>
+            </div>
 
-                  <article class="surface-card metric-card">
-                    <p class="metric-card__value">10+</p>
-                    <h3>Tools &amp; Technologies</h3>
-                    <p>
-                      Across frontend, analytics, cloud, and design tools
-                    </p>
-                  </article>
+            <div class="hint" id="hint"><svg class="icon"><use href="#i-down" /></svg>Scroll to fly</div>
+          </div>
+        </div>
+      </section>
 
-                  <article class="surface-card metric-card">
-                    <p class="metric-card__value">30%+</p>
-                    <h3>Data Accuracy Improvement</h3>
-                    <p>Through GA4 &amp; GTM implementations</p>
-                  </article>
+      <!-- ========== 4. PROJECTS: POSTCARDS ========== -->
+      <section id="projects" class="page-section" aria-label="Projects">
+        <div class="wrapx">
+          <p class="kicker">Projects</p>
+          <h2>Postcards from the trip</h2>
+          <p class="lede">Things I built along the way. Click a card to flip it.</p>
+          <div class="pcg" id="pcg"></div>
+        </div>
+      </section>
+
+      <!-- ========== 5. CONTACT: BOARDING PASS ========== -->
+      <section id="contact" class="page-section" aria-label="Contact">
+        <div class="wrapx">
+          <p class="kicker">Contact</p>
+          <h2>Next trip</h2>
+          <p class="lede">Open to thoughtful frontend, analytics, and product-focused opportunities.</p>
+          <div class="bp">
+            <div class="bp-main">
+              <div style="display: flex; justify-content: space-between; align-items: center">
+                <p class="small" style="display: flex; align-items: center; gap: 6px"><svg class="icon"><use href="#i-plane" /></svg>Boarding pass</p>
+                <p class="small">Gate: your inbox</p>
+              </div>
+              <div class="route">
+                <div><p class="small">From</p><p class="big">Shreya</p><p class="small">Software engineer</p></div>
+                <div class="dash"><span></span><svg class="icon" style="width: 20px; height: 20px"><use href="#i-plane" /></svg><span></span></div>
+                <div style="text-align: right"><p class="small">To</p><p class="big" style="font-family: var(--font-serif); font-weight: 500">Your team</p><p class="small">Next stop</p></div>
+              </div>
+              <form id="form" novalidate>
+                <div class="fgrid">
+                  <div class="field"><label for="fn">Your name</label><input id="fn" autocomplete="name" placeholder="Alex Rivera" /><p class="ferr" id="efn"></p></div>
+                  <div class="field"><label for="fe">Your email</label><input id="fe" type="email" autocomplete="email" placeholder="alex@company.com" /><p class="ferr" id="efe"></p></div>
                 </div>
-              </div>
-            </section>
-
-            <section class="portfolio-section skills-section" id="skills">
-              <div class="section-heading" data-reveal>
-                <p class="section-eyebrow">Skills</p>
-                <h2 class="section-title">
-                  A toolkit shaped by frontend execution, product thinking, and
-                  analytics detail.
-                </h2>
-              </div>
-
-              <div class="skills-grid" data-reveal>
-                <article class="surface-card skill-card">
-                  <h3>Frontend Development</h3>
-                  <div class="chip-list">
-                    <span class="chip">JavaScript</span>
-                    <span class="chip">HTML</span>
-                    <span class="chip">CSS</span>
-                    <span class="chip">Responsive Design</span>
-                    <span class="chip">DOM Fundamentals</span>
-                  </div>
-                </article>
-
-                <article class="surface-card skill-card">
-                  <h3>Analytics and BI</h3>
-                  <div class="chip-list">
-                    <span class="chip">Google Analytics (GA4)</span>
-                    <span class="chip">Google Tag Manager</span>
-                    <span class="chip">KPI Dashboards</span>
-                    <span class="chip">Data Validation</span>
-                    <span class="chip">SQL</span>
-                    <span class="chip">Excel</span>
-                    <span class="chip">Power BI</span>
-                    <span class="chip">Tableau</span>
-                  </div>
-                </article>
-
-                <article class="surface-card skill-card">
-                  <h3>Data Management</h3>
-                  <div class="chip-list">
-                    <span class="chip">Data Wrangling</span>
-                    <span class="chip">Dataset Querying</span>
-                    <span class="chip">ETL Concepts</span>
-                    <span class="chip">Data Governance</span>
-                  </div>
-                </article>
-
-                <article class="surface-card skill-card">
-                  <h3>Cloud and Tools</h3>
-                  <div class="chip-list">
-                    <span class="chip">AWS (EC2, S3, CloudWatch, IAM)</span>
-                    <span class="chip">GCP (BigQuery, Dialogflow CX, Document AI)</span>
-                    <span class="chip">Taiga</span>
-                  </div>
-                </article>
-
-                <article class="surface-card skill-card">
-                  <h3>Programming</h3>
-                  <div class="chip-list">
-                    <span class="chip">Python</span>
-                    <span class="chip">Java</span>
-                  </div>
-                </article>
-
-                <article class="surface-card skill-card">
-                  <h3>Design and Collaboration</h3>
-                  <div class="chip-list">
-                    <span class="chip">Figma</span>
-                    <span class="chip">Canva</span>
-                    <span class="chip">MS Office Suite</span>
-                    <span class="chip">Scrum</span>
-                    <span class="chip">Stakeholder Reporting</span>
-                  </div>
-                </article>
-              </div>
-            </section>
-
-            <section class="portfolio-section projects-section" id="projects">
-              <div class="section-heading" data-reveal>
-                <p class="section-eyebrow">Projects</p>
-                <h2 class="section-title">
-                  Practical builds where product clarity and implementation
-                  precision meet.
-                </h2>
-              </div>
-
-              <div class="project-grid" data-reveal>
-                <article class="surface-card project-card">
-                  <p class="card-label">Cloud Infrastructure</p>
-                  <h3>AWS Cloud Infrastructure Monitoring System</h3>
-                  <p>
-                    Designed AWS infrastructure using EC2, IAM, S3, and
-                    CloudWatch for system monitoring. Retrieved system logs via
-                    AWS APIs and structured monitoring workflows.
-                  </p>
-                </article>
-
-                <article class="surface-card project-card">
-                  <p class="card-label">Optimization App</p>
-                  <h3>RouteGo Vehicle Routing Optimization App</h3>
-                  <p>
-                    Developed route optimization algorithm and built
-                    visualizations. Designed UI layouts and interaction flows
-                    using Figma for clarity and usability.
-                  </p>
-                </article>
-
-                <article class="surface-card project-card">
-                  <p class="card-label">Mobile Application</p>
-                  <h3>Parking System Application</h3>
-                  <p>
-                    Developed Flutter-based parking system for efficient
-                    vehicle management. Designed UI screens using Canva
-                    focusing on simple and intuitive interaction flow.
-                  </p>
-                </article>
-              </div>
-            </section>
-
-            <section
-              class="portfolio-section experience-section"
-              id="experience"
-            >
-              <div class="section-heading" data-reveal>
-                <p class="section-eyebrow">Experience</p>
-                <h2 class="section-title">
-                  Building production systems with the same care I bring to
-                  interface design.
-                </h2>
-              </div>
-
-              <div class="experience-stack" data-reveal>
-                <article class="surface-card experience-card">
-                  <p class="card-label">Tata Consultancy Services</p>
-                  <h3>System Administrator</h3>
-                  <p>
-                    Completed GA4 migration across 100+ properties, improving
-                    data accuracy by 30%. Implemented event tracking, debugged
-                    tracking issues, and supported GTM setup across teams.
-                  </p>
-                </article>
-
-                <article class="surface-card experience-card">
-                  <p class="card-label">Tata Consultancy Services</p>
-                  <h3>Assistant System Engineer</h3>
-                  <p>
-                    Built chatbot workflows using Dialogflow CX and Python.
-                    Automated document processing and supported analytics
-                    validation.
-                  </p>
-                </article>
-
-                <article class="surface-card experience-card">
-                  <p class="card-label">Grandeur Engineering</p>
-                  <h3>Data Analytics Intern</h3>
-                  <p>
-                    Analyzed datasets and created structured reports to support
-                    decision-making.
-                  </p>
-                </article>
-
-                <article class="surface-card experience-card">
-                  <p class="card-label">Intellico Labs</p>
-                  <h3>Business Intern</h3>
-                  <p>
-                    Co-founded LocoHelp, worked on early product setup and
-                    market research. Designed logo and branding using Figma and
-                    Canva.
-                  </p>
-                </article>
-
-                <article class="surface-card experience-card">
-                  <p class="card-label">Jagar Manacha</p>
-                  <h3>Content Intern</h3>
-                  <p>
-                    Developed educational modules and structured content.
-                    Supported a mental health awareness campaign for 200+
-                    participants.
-                  </p>
-                </article>
-              </div>
-            </section>
-
-            <section class="portfolio-section contact-section" id="contact">
-              <div class="contact-layout" data-reveal>
-                <div class="section-heading contact-heading">
-                  <p class="section-eyebrow">Contact</p>
-                  <p class="section-intro">
-                    Open to thoughtful frontend, analytics, and product-focused
-                    collaboration.
-                  </p>
+                <div class="field" style="margin-top: 10px">
+                  <label for="fm">Message</label>
+                  <textarea id="fm" placeholder="We're hiring for a software engineer role and would love to chat."></textarea>
+                  <p class="ferr" id="efm"></p>
                 </div>
-
-                <article class="surface-card contact-card">
-                  <a class="contact-link" href="mailto:ssunil9@asu.edu">
-                    <span class="contact-link__label">Email</span>
-                    <span class="contact-link__value">ssunil9@asu.edu</span>
-                  </a>
-                  <a class="contact-link" href="tel:+16027430196">
-                    <span class="contact-link__label">Phone</span>
-                    <span class="contact-link__value">(602) 743-0196</span>
-                  </a>
-                  <div class="contact-link contact-link--static">
-                    <span class="contact-link__label">Location</span>
-                    <span class="contact-link__value">Tempe, Arizona</span>
-                  </div>
-                  <a
-                    class="contact-link"
-                    href="https://www.linkedin.com/in/shreya-sunil-0830411b2"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span class="contact-link__label">LinkedIn</span>
-                    <span class="contact-link__value">
-                      linkedin.com/in/shreya-sunil-0830411b2
-                    </span>
-                  </a>
-                </article>
-              </div>
-            </section>
+                <div style="display: flex; justify-content: flex-end; margin-top: 12px">
+                  <button class="send" type="submit"><svg class="icon"><use href="#i-send" /></svg>Board and send</button>
+                </div>
+              </form>
+              <div class="sent" id="sent">Message sent<br /><span style="font-size: 13px; font-weight: 500">I'll get back to you soon</span></div>
+            </div>
+            <div class="bp-stub">
+              <p class="small" style="color: var(--primary); font-weight: 700">Prefer a direct route?</p>
+              <a class="ql" href="mailto:shreyasunil926@gmail.com"><svg class="icon"><use href="#i-mail" /></svg>Email</a>
+              <a class="ql" href="https://www.linkedin.com/in/shreya-sunil-0830141b2" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-link" /></svg>LinkedIn</a>
+              <a class="ql" href="https://github.com/shreys2095" target="_blank" rel="noreferrer"><svg class="icon"><use href="#i-code" /></svg>GitHub</a>
+              <a class="ql" href="#contact"><svg class="icon"><use href="#i-file" /></svg>Resume</a>
+              <p class="small" style="margin-top: auto; color: var(--primary); display: flex; align-items: center; gap: 7px">
+                <span style="width: 8px; height: 8px; border-radius: 50%; background: var(--ok)"></span>Open to opportunities
+              </p>
+            </div>
           </div>
         </div>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Shreya Sunil</p>
+    </footer>
   </body>
 </html>
